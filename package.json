@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "webpack": "webpack -wd",
-    "dev": "nodemon lib/server.js --exec babel-node"
+    "dev": "nodemon lib/server.js --exec babel-node",
+    "start:dev": "webpack-dev-server"
   },
   "babel": {
     "presets": [
@@ -22,7 +23,8 @@
     "eslint": "^5.10.0",
     "eslint-plugin-react": "^7.11.1",
     "nodemon": "^1.18.8",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
